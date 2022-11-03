@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace AluraLoja.Migrations
+namespace DDDAOEntity.Migrations
 {
     public partial class Cliente : Migration
     {

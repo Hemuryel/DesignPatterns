@@ -1,4 +1,4 @@
-﻿namespace AluraLoja
+﻿namespace DDDAOEntity
 {
     public class Promocao
     {

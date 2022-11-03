@@ -1,4 +1,4 @@
-﻿namespace CursoDesignPatterns
+﻿namespace DDGofStrategy
 {
     public class Program
     {

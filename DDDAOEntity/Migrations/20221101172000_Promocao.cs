@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace AluraLoja.Migrations
+namespace DDDAOEntity.Migrations
 {
     public partial class Promocao : Migration
     {
