@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DDGofComposite
+namespace DDGofCompositeDecorator
 {
     public class Program
     {
