@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofChainOfResponsability"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDAOEntity", "DDDAOEntity\DDDAOEntity.csproj", "{F0A50FCB-E2F7-4CF5-9974-8115F12BCB9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofTemplateMethod", "DDGofTemplateMethod\DDGofTemplateMethod.csproj", "{EC535EB8-D2F9-4BA6-A7CB-54AFA34CED52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofTemplateMethod", "DDGofTemplateMethod\DDGofTemplateMethod.csproj", "{EC535EB8-D2F9-4BA6-A7CB-54AFA34CED52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofState", "DDGoFState\DDGofState.csproj", "{2CA2A8C5-6DFB-4CAF-882B-5CB82C786187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofState", "DDGoFState\DDGofState.csproj", "{2CA2A8C5-6DFB-4CAF-882B-5CB82C786187}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofCompositeDecorator", "DDGofCompositeDecorator\DDGofCompositeDecorator.csproj", "{201CC1BF-04C0-4557-93FC-7D7128FF1C90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofBuilder", "DDGofBuilder\DDGofBuilder.csproj", "{3226F8EA-BB06-4BCB-8173-729B8F7D96FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{201CC1BF-04C0-4557-93FC-7D7128FF1C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{201CC1BF-04C0-4557-93FC-7D7128FF1C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{201CC1BF-04C0-4557-93FC-7D7128FF1C90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3226F8EA-BB06-4BCB-8173-729B8F7D96FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3226F8EA-BB06-4BCB-8173-729B8F7D96FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3226F8EA-BB06-4BCB-8173-729B8F7D96FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3226F8EA-BB06-4BCB-8173-729B8F7D96FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
