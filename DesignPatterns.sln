@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofCompositeDecorator", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofBuilder", "DDGofBuilder\DDGofBuilder.csproj", "{3226F8EA-BB06-4BCB-8173-729B8F7D96FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofObserver", "DDGofObserver\DDGofObserver.csproj", "{4F8EA804-B722-4693-B409-11E957040459}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{3226F8EA-BB06-4BCB-8173-729B8F7D96FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3226F8EA-BB06-4BCB-8173-729B8F7D96FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3226F8EA-BB06-4BCB-8173-729B8F7D96FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F8EA804-B722-4693-B409-11E957040459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8EA804-B722-4693-B409-11E957040459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F8EA804-B722-4693-B409-11E957040459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8EA804-B722-4693-B409-11E957040459}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
