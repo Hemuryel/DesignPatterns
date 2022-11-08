@@ -1,12 +1,28 @@
 ﻿using System;
 
-namespace DDGoFState
+namespace DDGofState
 {
-    internal class Program
+    using static System.Console;
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Orcamento reforma = new Orcamento(500);
+            WriteLine(reforma.Valor);
+
+            reforma.AplicarDescontoExtra();
+            WriteLine(reforma.Valor);
+
+            reforma.Aprovar();
+
+            reforma.AplicarDescontoExtra();
+            WriteLine(reforma.Valor);
+
+            reforma.Finalizar();
+
+            //reforma.AplicarDescontoExtra(); //Exception
+
+            ReadKey();
         }
     }
 }
