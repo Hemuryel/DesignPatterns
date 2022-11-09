@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofCompositeDecoratorFilt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofTemplateMethodReport", "DDGofTemplateMethodReport\DDGofTemplateMethodReport.csproj", "{F5C6124B-F963-4BB6-8C04-012F34FD5D66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofChainOfResponsabilityResponse", "DDGofChainOfResponsabilityResponse\DDGofChainOfResponsabilityResponse.csproj", "{17ED8587-BEA6-4F5A-B549-8DAAA8FBBAE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofStrategyInvestimento", "DDGofStrategyInvestimento\DDGofStrategyInvestimento.csproj", "{05BCE05E-7D70-4E27-92CE-0381A248B576}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{F5C6124B-F963-4BB6-8C04-012F34FD5D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5C6124B-F963-4BB6-8C04-012F34FD5D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5C6124B-F963-4BB6-8C04-012F34FD5D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17ED8587-BEA6-4F5A-B549-8DAAA8FBBAE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17ED8587-BEA6-4F5A-B549-8DAAA8FBBAE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17ED8587-BEA6-4F5A-B549-8DAAA8FBBAE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17ED8587-BEA6-4F5A-B549-8DAAA8FBBAE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05BCE05E-7D70-4E27-92CE-0381A248B576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05BCE05E-7D70-4E27-92CE-0381A248B576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05BCE05E-7D70-4E27-92CE-0381A248B576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05BCE05E-7D70-4E27-92CE-0381A248B576}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

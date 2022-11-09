@@ -10,7 +10,9 @@ namespace DDGofStrategy
     { 
         public void RealizarCalculo(Orcamento orcamento, IImposto imposto)
         {
-            Console.WriteLine(imposto.Calcular(orcamento));
+            //Strategy
+            double resultado = imposto.Calcular(orcamento);
+            Console.WriteLine(resultado);
         }
     }
 }

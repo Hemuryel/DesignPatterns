@@ -19,6 +19,10 @@
             calculador.RealizarCalculo(orcamento, iccc);
             calculador.RealizarCalculo(orcamento, iss);
 
+            /* Outra forma sem CalculadorDeImpostos*/
+            iccc.Calcular(orcamento);
+            iss.Calcular(orcamento);
+
             Console.ReadKey();
         }
     }
