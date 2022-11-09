@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace DDGofState
 {
+    /* State
+     * 
+     * sugere que você crie novas classes para todos os estados possíveis de um objeto 
+     *  e extraia todos os comportamentos específicos de estados para dentro dessas classes
+     */
     public class Orcamento
     {
         public EstadoDeUmOrcamento EstadoAtual { get; set; }

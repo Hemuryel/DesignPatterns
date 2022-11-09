@@ -22,7 +22,11 @@ namespace DDGofCompositeDecorator
             this.OutroImposto = outroImposto;
         }
 
-        //Padrão GoF - Decorator
+        /* Decorator
+         * 
+         * anexa responsabilidades adicionais a um objeto dinamicamente
+         * fornecem uma alternativa flexível de subclasse para estender a funcionalidade
+         */
         protected double CalcularOutroImposto(Orcamento orcamento)
         {
             if (OutroImposto == null) return 0;

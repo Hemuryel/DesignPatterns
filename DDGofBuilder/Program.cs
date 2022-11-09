@@ -4,6 +4,12 @@ namespace DDGofBuilder
 {
     internal class Program
     {
+        /* Builder
+         * 
+         * encapsular a lógica de construção de um objeto
+         * diminuir complexidade
+         */
+
         static void Main(string[] args)
         {
             NotaFiscalBuilder criador = new NotaFiscalBuilder();

@@ -12,7 +12,7 @@ namespace DDGofChainOfResponsability
         {
             IDesconto d1 = new DescontosPorCincoItens();
             IDesconto d2 = new DescontoPorMaisDeQuinhentosReais();
-            IDesconto d3 = new DescontoPorMaisDeQuinhentosReais();
+            IDesconto d3 = new SemDesconto();
 
             d1.Proximo = d2;
             d2.Proximo = d3;

@@ -5,6 +5,11 @@ namespace DDGofState
     using static System.Console;
     public class Program
     {
+        /* State
+         * 
+         * coloca todo o comportamento associado com um estado particular em um objeto
+         */
+
         static void Main(string[] args)
         {
             Orcamento reforma = new Orcamento(500);

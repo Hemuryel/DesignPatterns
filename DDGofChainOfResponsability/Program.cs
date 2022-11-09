@@ -2,6 +2,12 @@
 {
     public class Program
     {
+        /* Chain of Responsability
+         * 
+         * usado para encadeamento de regras
+         * permite passar a solicitação ao longo da cadeia de handlers em potencial até que um deles lide com a solicitação
+         */
+
         static void Main(string[] args)
         {
             CalculadorDeDescontos calculador = new CalculadorDeDescontos();

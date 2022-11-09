@@ -37,6 +37,7 @@ namespace DDGofBuilder
         public NotaFiscalBuilder ComObservacoes(string observacoes)
         {
             this.Observacoes = observacoes;
+            return this;
         }
 
         public NotaFiscalBuilder NaDataAtual()
