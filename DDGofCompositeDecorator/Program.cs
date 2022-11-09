@@ -22,15 +22,12 @@ namespace DDGofCompositeDecorator
 
         static void Main(string[] args)
         {
-            //Imposto iss = new ISS();
-            Imposto iss = new ISS(new ICMS(new IKCV()));
-
+            Imposto imposto = new ImpostoMuitoAlto(new ISS(new ICMS(new IKCV())));
             Orcamento orcamento = new Orcamento(500);
 
-            double valor = iss.Calcular(orcamento);
+            double valorImposto = imposto.Calcular(orcamento);
 
-            Console.WriteLine(valor);
-
+            Console.WriteLine(valorImposto);
             Console.ReadKey();
         }
     }
