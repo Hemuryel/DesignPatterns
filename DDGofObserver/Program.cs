@@ -4,6 +4,14 @@ namespace DDGofObserver
 {
     internal class Program
     {
+        /* Observer
+         * 
+         * define uma dependência um-para-muitos entre os objetos 
+         * de modo que quando um objeto muda de estado, 
+         * todos os seus dependentes são notificados 
+         * e atualizados automaticamente
+         */
+
         static void Main(string[] args)
         {
             NotaFiscalBuilder criador = new NotaFiscalBuilder();
