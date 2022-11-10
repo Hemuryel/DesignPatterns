@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DDGofObserver
 {
-    public class EnviadorSMS : AcaoAposGerarNota
+    public class EnviadorSMS : IAcaoAposGerarNota
     {
         public void EnviarSMS(NotaFiscal nf)
         {

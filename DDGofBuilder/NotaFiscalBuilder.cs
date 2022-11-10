@@ -40,10 +40,15 @@ namespace DDGofBuilder
             return this;
         }
 
-        public NotaFiscalBuilder NaDataAtual()
+        public NotaFiscalBuilder NaDataAtual(DateTime data)
         {
-            this.Data = DateTime.Now;
+            this.Data = data;
             return this;
+        }
+
+        public NotaFiscalBuilder()
+        {
+            this.Data = DateTime.Now; //setar data atual por padrão
         }
 
         //Builder = esconder complexidade

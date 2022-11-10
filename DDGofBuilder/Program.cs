@@ -20,9 +20,25 @@ namespace DDGofBuilder
                 .ComCnpj("23.456.789/0001-12")
                 .ComItem(new ItemNota("Item 1", 100.0))
                 .ComItem(new ItemNota("Item 2", 200.0))
-                .NaDataAtual()
+                .NaDataAtual(new DateTime(2022, 11, 10))
                 .ComObservacoes("Uma obs qualquer");
 
+            //Builder não precisaria para ItemNota por ser muito simples
+            ItemNotaBuilder nota4 = new ItemNotaBuilder();
+            nota4
+                .SetNome("Item 3")
+                .SetValor(100);
+
+            ItemNotaBuilder nota5 = new ItemNotaBuilder();
+            nota5
+                .SetNome("Item 5")
+                .SetValor(100);
+
+            criador
+                .ComItem(nota4.Builder())
+                .ComItem(nota5.Builder());
+
+            //Outra forma sem Builder
             //criador.ParaEmpresa("Caelum Ensino e Inovação.");
             //criador.ComCnpj("23.456.789/0001-12");
             //criador.ComItem(new ItemNota("Item 1", 100.0));
@@ -34,6 +50,8 @@ namespace DDGofBuilder
 
             Console.WriteLine(nf.ValorBruto);
             Console.WriteLine(nf.Impostos);
+
+
 
             Console.ReadKey();
         }

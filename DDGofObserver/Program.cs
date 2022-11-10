@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace DDGofObserver
 {
@@ -14,6 +16,15 @@ namespace DDGofObserver
 
         static void Main(string[] args)
         {
+            //Outra forma
+            //IList<IAcaoAposGerarNota> lista = new List<IAcaoAposGerarNota>();
+            //lista.Add(new EnviadorEmail());
+            //lista.Add(new NotaFiscalDAO());
+            //lista.Add(new EnviadorSMS());
+            //lista.Add(new Multiplicador(1));
+            //lista.Add(new Multiplicador(2));
+
+            //NotaFiscalBuilder criador = new NotaFiscalBuilder(lista);
             NotaFiscalBuilder criador = new NotaFiscalBuilder();
 
             //interface fluente, method chaining
@@ -25,9 +36,12 @@ namespace DDGofObserver
                 .NaDataAtual()
                 .ComObservacoes("Uma obs qualquer");
 
-            criador.AdicionarAcao(new EnviadorEmail());
-            criador.AdicionarAcao(new NotaFiscalDAO());
-            criador.AdicionarAcao(new EnviadorSMS());
+            criador
+                .AdicionarAcao(new EnviadorEmail())
+                .AdicionarAcao(new NotaFiscalDAO())
+                .AdicionarAcao(new EnviadorSMS())
+                .AdicionarAcao(new Multiplicador(1))
+                .AdicionarAcao(new Multiplicador(2));
 
             //criador.ParaEmpresa("Caelum Ensino e Inovação.");
             //criador.ComCnpj("23.456.789/0001-12");

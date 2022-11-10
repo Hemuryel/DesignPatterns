@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DDGofObserver
 {
-    public interface AcaoAposGerarNota
+    public interface IAcaoAposGerarNota
     {
         void Executar(NotaFiscal nf);
     }

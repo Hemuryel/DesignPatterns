@@ -46,11 +46,22 @@ namespace DDGofObserver
             return this;
         }
 
-        private IList<AcaoAposGerarNota> todasAcoesASeremExecutadas = new List<AcaoAposGerarNota>();
+        private IList<IAcaoAposGerarNota> todasAcoesASeremExecutadas = new List<IAcaoAposGerarNota>();
 
-        public void AdicionarAcao(AcaoAposGerarNota novaAcao)
+        public NotaFiscalBuilder AdicionarAcao(IAcaoAposGerarNota novaAcao)
         {
             this.todasAcoesASeremExecutadas.Add(novaAcao);
+            return this;
+        }
+
+        public NotaFiscalBuilder()
+        {
+
+        }
+
+        public NotaFiscalBuilder(IList<IAcaoAposGerarNota> lista)
+        {
+            this.todasAcoesASeremExecutadas = lista;
         }
 
         //Builder = esconder complexidade
@@ -63,27 +74,12 @@ namespace DDGofObserver
             //new EnviadorSMS().EnviarSMS(nf);
 
             //Observer
-            foreach (AcaoAposGerarNota acao in todasAcoesASeremExecutadas)
+            foreach (IAcaoAposGerarNota acao in todasAcoesASeremExecutadas)
             {
                 acao.Executar(nf);
             }
 
             return nf;
-        }
-
-        private void enviarEmail(NotaFiscal nf)
-        {
-            Console.WriteLine("Simulando envio de e-mail!");
-        }
-
-        private void salvarBanco(NotaFiscal nf)
-        {
-            Console.WriteLine("Simulando salvar banco de dados!");
-        }
-
-        private void envarSMS(NotaFiscal nf)
-        {
-            Console.WriteLine("Simulando envio de SMS!");
         }
     }
 }

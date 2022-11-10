@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DDGofObserver
 {
-    public class NotaFiscalDAO : AcaoAposGerarNota
+    public class NotaFiscalDAO : IAcaoAposGerarNota
     {
         public void SalvarBanco(NotaFiscal nf)
         {
