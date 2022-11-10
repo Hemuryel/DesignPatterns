@@ -15,17 +15,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofState", "DDGoFState\DD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofCompositeDecorator", "DDGofCompositeDecorator\DDGofCompositeDecorator.csproj", "{201CC1BF-04C0-4557-93FC-7D7128FF1C90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofBuilder", "DDGofBuilder\DDGofBuilder.csproj", "{3226F8EA-BB06-4BCB-8173-729B8F7D96FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofBuilder", "DDGofBuilder\DDGofBuilder.csproj", "{3226F8EA-BB06-4BCB-8173-729B8F7D96FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofObserver", "DDGofObserver\DDGofObserver.csproj", "{4F8EA804-B722-4693-B409-11E957040459}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofObserver", "DDGofObserver\DDGofObserver.csproj", "{4F8EA804-B722-4693-B409-11E957040459}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofCompositeDecoratorFilter", "DDGofCompositeDecoratorFilter\DDGofCompositeDecoratorFilter.csproj", "{2CADC50B-A515-4C57-BEF1-DC60835C6F45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofTemplateMethodReport", "DDGofTemplateMethodReport\DDGofTemplateMethodReport.csproj", "{F5C6124B-F963-4BB6-8C04-012F34FD5D66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofTemplateMethodReport", "DDGofTemplateMethodReport\DDGofTemplateMethodReport.csproj", "{F5C6124B-F963-4BB6-8C04-012F34FD5D66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofChainOfResponsabilityResponse", "DDGofChainOfResponsabilityResponse\DDGofChainOfResponsabilityResponse.csproj", "{17ED8587-BEA6-4F5A-B549-8DAAA8FBBAE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofChainOfResponsabilityResponse", "DDGofChainOfResponsabilityResponse\DDGofChainOfResponsabilityResponse.csproj", "{17ED8587-BEA6-4F5A-B549-8DAAA8FBBAE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofStrategyInvestimento", "DDGofStrategyInvestimento\DDGofStrategyInvestimento.csproj", "{05BCE05E-7D70-4E27-92CE-0381A248B576}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofStrategyInvestimento", "DDGofStrategyInvestimento\DDGofStrategyInvestimento.csproj", "{05BCE05E-7D70-4E27-92CE-0381A248B576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofStatePositivoNegativo", "DDGofStatePositivoNegativo\DDGofStatePositivoNegativo.csproj", "{0B7501C0-A6D5-47D0-BA18-728CEFD0FF8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{05BCE05E-7D70-4E27-92CE-0381A248B576}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05BCE05E-7D70-4E27-92CE-0381A248B576}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05BCE05E-7D70-4E27-92CE-0381A248B576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B7501C0-A6D5-47D0-BA18-728CEFD0FF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B7501C0-A6D5-47D0-BA18-728CEFD0FF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B7501C0-A6D5-47D0-BA18-728CEFD0FF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B7501C0-A6D5-47D0-BA18-728CEFD0FF8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
