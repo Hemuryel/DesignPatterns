@@ -9,10 +9,12 @@ namespace DDGofStrategyInvestimento
     public class Moderado : IInvestimento
     {
         private Random random;
+
         public Moderado()
         {
             this.random = new Random();
         }
+
         public double Calcular(Conta conta)
         {
             if (random.Next(2) == 0)
