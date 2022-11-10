@@ -17,9 +17,9 @@ namespace DDGofInterpreter
 
         static void Main(string[] args)
         {
-            // Expressão: (1 + 10) + (20 - 10)
+            // Expressão: ((1 + 10) + ((20 - 10)) * 100)
             IExpressao esquerda = new Soma(new Numero(1), new Numero(10));
-            IExpressao direita = new Subtracao(new Numero(20), new Numero(10));
+            IExpressao direita = new Multiplicacao(new Subtracao(new Numero(20), new Numero(10)), new Numero(100));
             IExpressao resultado = new Soma(esquerda, direita);
 
             Console.WriteLine(resultado.Avaliar());
