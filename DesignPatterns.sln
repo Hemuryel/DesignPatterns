@@ -29,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofStrategyInvestimento",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofStatePositivoNegativo", "DDGofStatePositivoNegativo\DDGofStatePositivoNegativo.csproj", "{0B7501C0-A6D5-47D0-BA18-728CEFD0FF8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofAbstractFactory", "DDGofAbstractFactory\DDGofAbstractFactory.csproj", "{8D9F03D7-8CC3-422A-8AD5-0556A322BC53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofAbstractFactory", "DDGofAbstractFactory\DDGofAbstractFactory.csproj", "{8D9F03D7-8CC3-422A-8AD5-0556A322BC53}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofFactoryMethod", "DDGofFactoryMethod\DDGofFactoryMethod.csproj", "{0A9994B0-A28A-4DE3-A1A5-75E0D624A286}"
 EndProject
@@ -39,25 +39,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofMemento", "DDGofMement
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofInterpreter", "DDGofInterpreter\DDGofInterpreter.csproj", "{916C985F-282A-4749-AE9D-06642BAE3ADC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofVisitor", "DDGofVisitor\DDGofVisitor.csproj", "{67620DE0-530F-4F82-B407-EB6EFA9BAC7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofVisitor", "DDGofVisitor\DDGofVisitor.csproj", "{67620DE0-530F-4F82-B407-EB6EFA9BAC7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofBridge", "DDGofBridge\DDGofBridge.csproj", "{878853E0-CA0E-4688-AAF8-770A97D78C8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofBridge", "DDGofBridge\DDGofBridge.csproj", "{878853E0-CA0E-4688-AAF8-770A97D78C8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofCommand", "DDGofCommand\DDGofCommand.csproj", "{57BA1A89-50D2-4E3A-B8CF-D433F7E9950A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofCommand", "DDGofCommand\DDGofCommand.csproj", "{57BA1A89-50D2-4E3A-B8CF-D433F7E9950A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofAdapter", "DDGofAdapter\DDGofAdapter.csproj", "{7783F5F6-2ECE-4ECD-B325-F7E68F37FF64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofAdapter", "DDGofAdapter\DDGofAdapter.csproj", "{7783F5F6-2ECE-4ECD-B325-F7E68F37FF64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofFacade", "DDGofFacade\DDGofFacade.csproj", "{869E518C-4F73-4B35-9B78-0F85DB90DFA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofFacade", "DDGofFacade\DDGofFacade.csproj", "{869E518C-4F73-4B35-9B78-0F85DB90DFA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofSingleton", "DDGofSingleton\DDGofSingleton.csproj", "{B27C5D03-55B8-468F-9383-7A827FAF4890}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofSingleton", "DDGofSingleton\DDGofSingleton.csproj", "{B27C5D03-55B8-468F-9383-7A827FAF4890}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofPrototype", "DDGofPrototype\DDGofPrototype.csproj", "{0CA06FC9-D930-4A67-AABC-A7B7CA0095EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofPrototype", "DDGofPrototype\DDGofPrototype.csproj", "{0CA06FC9-D930-4A67-AABC-A7B7CA0095EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofProxy", "DDGofProxy\DDGofProxy.csproj", "{EEFFD4C4-27E4-4876-BE0D-ACEA4F914638}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofProxy", "DDGofProxy\DDGofProxy.csproj", "{EEFFD4C4-27E4-4876-BE0D-ACEA4F914638}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofIterator", "DDGofIterator\DDGofIterator.csproj", "{C17A0E3F-0763-4133-87CA-5E151DAB9A48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofIterator", "DDGofIterator\DDGofIterator.csproj", "{C17A0E3F-0763-4133-87CA-5E151DAB9A48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGofMediator", "DDGofMediator\DDGofMediator.csproj", "{0A582A04-2283-4151-9F79-B876C453A072}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDGofMediator", "DDGofMediator\DDGofMediator.csproj", "{0A582A04-2283-4151-9F79-B876C453A072}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

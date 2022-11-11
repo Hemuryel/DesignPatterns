@@ -10,7 +10,7 @@
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            ExemploSingleton exemploSingleton = ExemploSingleton.GetInstance();
         }
     }
 }

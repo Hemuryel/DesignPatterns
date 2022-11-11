@@ -9,7 +9,14 @@
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            String cpf = "1234";
+
+            EmpresaFacade facade = EmpresaFacadeSingleton.GetInstance();
+
+            Cliente cliente = facade.BuscarCliente(cpf);
+            Fatura fatura = facade.CriarFatura(cliente, 5000);
+            Cobranca cobranca = facade.GerarCobranca(fatura, cliente);
+            ContatoCliente contatoCliente = facade.FazerContato(cliente, cobranca);
         }
     }
 }
