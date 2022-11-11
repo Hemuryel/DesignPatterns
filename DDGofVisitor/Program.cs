@@ -15,8 +15,13 @@ namespace DDGofVisitor
             IExpressao direita = new Subtracao(new Numero(20), new Numero(10));
             IExpressao soma = new Soma(esquerda, direita);
 
-            ImpressoraVisitor impressora = new ImpressoraVisitor();
+            IVisitor impressora = new ImpressoraVisitor();
             soma.Aceitar(impressora);
+
+            Console.WriteLine("\n####\n");
+
+            IVisitor impressoraPreFixa = new ImpressoraPreFixaVisitor();
+            soma.Aceitar(impressoraPreFixa);
         }
     }
 }

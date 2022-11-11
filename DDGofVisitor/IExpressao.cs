@@ -9,6 +9,6 @@ namespace DDGofVisitor
     public interface IExpressao
     {
         int Avaliar();
-        void Aceitar(ImpressoraVisitor impressora);
+        void Aceitar(IVisitor impressora);
     }
 }

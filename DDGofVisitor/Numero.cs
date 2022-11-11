@@ -20,7 +20,7 @@ namespace DDGofVisitor
             return this.Valor;
         }
 
-        public void Aceitar(ImpressoraVisitor impressora)
+        public void Aceitar(IVisitor impressora)
         {
             impressora.ImprimirNumero(this);
         }

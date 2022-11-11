@@ -17,9 +17,9 @@ namespace DDGofVisitor
             this.Direita = direita;
         }
 
-        public void Aceitar(ImpressoraVisitor impressora)
+        public void Aceitar(IVisitor impressora)
         {
-            impressora.ImprimirSubracao(this);
+            impressora.ImprimirSubtracao(this);
         }
 
         public int Avaliar()

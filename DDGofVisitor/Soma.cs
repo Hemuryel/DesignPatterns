@@ -25,7 +25,7 @@ namespace DDGofVisitor
             return valorEsquerda + valorDireita;
         }
 
-        public void Aceitar(ImpressoraVisitor impressora)
+        public void Aceitar(IVisitor impressora)
         {
             impressora.ImprimirSoma(this);
         }
