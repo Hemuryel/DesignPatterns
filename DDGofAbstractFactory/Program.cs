@@ -41,7 +41,7 @@
             Console.WriteLine($"Tipo : {massaBase.TipoMassa}");
             Console.WriteLine(massaBase.Nome);
             Console.WriteLine(massaBase.Ingredientes[0].ToString());
-            Console.WriteLine("\n");
+            Console.WriteLine("\n"); 
         }
     }
 }
