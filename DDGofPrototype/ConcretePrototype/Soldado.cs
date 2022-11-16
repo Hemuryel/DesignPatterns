@@ -15,6 +15,14 @@ namespace DDGofPrototype.ConcretePrototype
             this.Arma = s.Arma;
             this.Acessorio = s.Acessorio;
         }
+
+        //Shallow Clone para classe Acessorio
+        //public object Clone()
+        //{
+        //    return new Soldado(this);
+        //}
+
+        //Deep Clone
         public object Clone()
         {
             Soldado soldado = (Soldado)this.MemberwiseClone();

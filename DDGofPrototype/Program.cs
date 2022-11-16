@@ -11,6 +11,16 @@ namespace DDGofPrototype
          * evita custos de memória sem usar o comando new 
          */
 
+        /* Tipos de cópias:
+         * 
+         *  Shallow Copy (cópia superficial) por referência
+         *      se alterar o valor pra 1 objeto, alterará para todos
+         *      
+         *  Deep Copy
+         *      para implementá-lo, o objeto deve usar o método Clone()
+         *      exemplo: classe Acessorio
+         */
+
         static void Main(string[] args)
         {
             Soldado soldado = new Soldado();
