@@ -4,6 +4,12 @@ namespace DDGofIterator
 {
     class Program
     {
+        /* Iterator 
+         * 
+         * fornece uma maneira de acessar os elementos de um objeto agregado (coleção) 
+         * sequencialmente sem expor sua representação subjacente
+         */
+
         static void Main(string[] args)
         {
             // Cria uma coleção

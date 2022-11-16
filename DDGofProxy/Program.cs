@@ -4,6 +4,13 @@ namespace DDGofProxy
 {
     class Program
     {
+        /* Proxy
+         * 
+         * encapsular um objeto através de um outro objeto que possui a mesma interface, 
+         * de forma que o segundo objeto, conhecido como “Proxy”, 
+         * controla o acesso ao primeiro, que é o objeto real
+         */
+
         static void Main(string[] args)
         {
             Console.WriteLine("### Exemplo de implementação do padrão Proxy ###\n");

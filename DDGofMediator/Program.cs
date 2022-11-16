@@ -5,6 +5,11 @@ namespace DDGofMediator
 {
     public class Program
     {
+        /* Mediator
+         * 
+         * define um objeto que encapsula a forma como um conjunto de objetos interage
+         */
+
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();

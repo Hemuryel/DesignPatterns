@@ -5,6 +5,12 @@ namespace DDGofPrototype
 {
     class Program
     {
+        /* Prototype
+         * 
+         * delega o processo de clonagem para o próprio objeto que está sendo clonado
+         * evita custos de memória sem usar o comando new 
+         */
+
         static void Main(string[] args)
         {
             Soldado soldado = new Soldado();
