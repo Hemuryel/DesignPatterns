@@ -3,7 +3,6 @@ using DDGofMediator.Domain.Student.Entity;
 using DDGofMediator.Infrastructure;
 using DDGofMediator.Notifications;
 using MediatR;
-using System.Data.Common;
 using System.Threading;
 using System.Threading.Tasks;
 

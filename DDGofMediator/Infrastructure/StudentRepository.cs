@@ -15,9 +15,9 @@ namespace DDGofMediator.Infrastructure
         }
         public List<StudentEntity> GetStudents()
         {
-            Students.Add(new StudentEntity(1, "Pedro","Soares","pedro@email.com"));
-            Students.Add(new StudentEntity(2, "Maria","Sanches","maria@email.com"));
-            Students.Add(new StudentEntity(3, "Manuel","Ribeiro","manul@email.com"));
+            Students.Add(new StudentEntity(1, "Pedro", "Soares", "pedro@email.com"));
+            Students.Add(new StudentEntity(2, "Maria", "Sanches", "maria@email.com"));
+            Students.Add(new StudentEntity(3, "Manuel", "Ribeiro", "manul@email.com"));
             return Students;
         }
 
